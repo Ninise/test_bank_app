@@ -6,16 +6,24 @@
 //
 
 import SwiftUI
+import KeychainSwift
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+       
+        if (isActiveSession()) {
+            HomeView(isNewSession: false)
+        } else {
+            LandingView()
         }
-        .padding()
+       
+    }
+    
+    private func isActiveSession() -> Bool {
+        let keychain = KeychainSwift()
+        let token = keychain.get("session_token")
+        
+        return token == "ABRA-CA-DABRA"
     }
 }
 

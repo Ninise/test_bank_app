@@ -19,7 +19,7 @@ import Foundation
 //            }
 //        ]
 
-struct TfsaAccount: Codable {
+struct Transaction: Codable {
     
     var date: String
     var activity: [Activity]

@@ -14,6 +14,19 @@
 		11573F772991B534008A951A /* TestBankAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11573F762991B534008A951A /* TestBankAppTests.swift */; };
 		11573F812991B534008A951A /* TestBankAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11573F802991B534008A951A /* TestBankAppUITests.swift */; };
 		11573F832991B534008A951A /* TestBankAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11573F822991B534008A951A /* TestBankAppUITestsLaunchTests.swift */; };
+		11573F932991BB55008A951A /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11573F922991BB55008A951A /* Transaction.swift */; };
+		11573F952991BC17008A951A /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11573F942991BC17008A951A /* Activity.swift */; };
+		11573F992991C33F008A951A /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11573F982991C33F008A951A /* Account.swift */; };
+		11573F9B2991C551008A951A /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11573F9A2991C551008A951A /* LandingView.swift */; };
+		11573F9D2991C90F008A951A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11573F9C2991C90F008A951A /* HomeView.swift */; };
+		11573F9F2991E491008A951A /* TransactionsHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11573F9E2991E491008A951A /* TransactionsHistoryView.swift */; };
+		11573FA129928635008A951A /* LandingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11573FA029928635008A951A /* LandingController.swift */; };
+		11573FA329928713008A951A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11573FA229928713008A951A /* HomeController.swift */; };
+		11573FA529928777008A951A /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11573FA429928777008A951A /* TransactionViewController.swift */; };
+		11573FA829928B8E008A951A /* JsonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11573FA729928B8E008A951A /* JsonUtils.swift */; };
+		11573FAA2992A988008A951A /* listOfAccounts.json in Resources */ = {isa = PBXBuildFile; fileRef = 11573FA92992A988008A951A /* listOfAccounts.json */; };
+		11573FAC2992B06E008A951A /* accountTransactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 11573FAB2992B06E008A951A /* accountTransactions.json */; };
+		11573FB0299305C0008A951A /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 11573FAF299305C0008A951A /* KeychainSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,18 @@
 		11573F7C2991B534008A951A /* TestBankAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestBankAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11573F802991B534008A951A /* TestBankAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBankAppUITests.swift; sourceTree = "<group>"; };
 		11573F822991B534008A951A /* TestBankAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBankAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11573F922991BB55008A951A /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		11573F942991BC17008A951A /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		11573F982991C33F008A951A /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		11573F9A2991C551008A951A /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		11573F9C2991C90F008A951A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		11573F9E2991E491008A951A /* TransactionsHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsHistoryView.swift; sourceTree = "<group>"; };
+		11573FA029928635008A951A /* LandingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingController.swift; sourceTree = "<group>"; };
+		11573FA229928713008A951A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		11573FA429928777008A951A /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		11573FA729928B8E008A951A /* JsonUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonUtils.swift; sourceTree = "<group>"; };
+		11573FA92992A988008A951A /* listOfAccounts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = listOfAccounts.json; path = ../../data/listOfAccounts.json; sourceTree = "<group>"; };
+		11573FAB2992B06E008A951A /* accountTransactions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = accountTransactions.json; path = ../../data/accountTransactions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11573FB0299305C0008A951A /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +120,12 @@
 		11573F642991B530008A951A /* TestBankApp */ = {
 			isa = PBXGroup;
 			children = (
+				11573FAB2992B06E008A951A /* accountTransactions.json */,
+				11573FA92992A988008A951A /* listOfAccounts.json */,
+				11573FA629928B78008A951A /* Utils */,
+				11573F912991BAEB008A951A /* Views */,
+				11573F902991BADB008A951A /* Controllers */,
+				11573F8F2991BACC008A951A /* Models */,
 				11573F652991B530008A951A /* TestBankAppApp.swift */,
 				11573F672991B530008A951A /* ContentView.swift */,
 				11573F692991B533008A951A /* Assets.xcassets */,
@@ -127,6 +159,44 @@
 			path = TestBankAppUITests;
 			sourceTree = "<group>";
 		};
+		11573F8F2991BACC008A951A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11573F922991BB55008A951A /* Transaction.swift */,
+				11573F942991BC17008A951A /* Activity.swift */,
+				11573F982991C33F008A951A /* Account.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11573F902991BADB008A951A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				11573FA029928635008A951A /* LandingController.swift */,
+				11573FA229928713008A951A /* HomeController.swift */,
+				11573FA429928777008A951A /* TransactionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		11573F912991BAEB008A951A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11573F9A2991C551008A951A /* LandingView.swift */,
+				11573F9C2991C90F008A951A /* HomeView.swift */,
+				11573F9E2991E491008A951A /* TransactionsHistoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11573FA629928B78008A951A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				11573FA729928B8E008A951A /* JsonUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +213,9 @@
 			dependencies = (
 			);
 			name = TestBankApp;
+			packageProductDependencies = (
+				11573FAF299305C0008A951A /* KeychainSwift */,
+			);
 			productName = TestBankApp;
 			productReference = 11573F622991B530008A951A /* TestBankApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +288,9 @@
 				Base,
 			);
 			mainGroup = 11573F592991B530008A951A;
+			packageReferences = (
+				11573FAE299305C0008A951A /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = 11573F632991B530008A951A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +308,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				11573F6D2991B533008A951A /* Preview Assets.xcassets in Resources */,
+				11573FAA2992A988008A951A /* listOfAccounts.json in Resources */,
+				11573FAC2992B06E008A951A /* accountTransactions.json in Resources */,
 				11573F6A2991B533008A951A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +335,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11573F932991BB55008A951A /* Transaction.swift in Sources */,
 				11573F682991B530008A951A /* ContentView.swift in Sources */,
+				11573FA329928713008A951A /* HomeController.swift in Sources */,
+				11573FA829928B8E008A951A /* JsonUtils.swift in Sources */,
+				11573F9B2991C551008A951A /* LandingView.swift in Sources */,
+				11573FA129928635008A951A /* LandingController.swift in Sources */,
+				11573F952991BC17008A951A /* Activity.swift in Sources */,
 				11573F662991B530008A951A /* TestBankAppApp.swift in Sources */,
+				11573FA529928777008A951A /* TransactionViewController.swift in Sources */,
+				11573F9D2991C90F008A951A /* HomeView.swift in Sources */,
+				11573F9F2991E491008A951A /* TransactionsHistoryView.swift in Sources */,
+				11573F992991C33F008A951A /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +513,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +543,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +673,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11573FAE299305C0008A951A /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11573FAF299305C0008A951A /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11573FAE299305C0008A951A /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 11573F5A2991B530008A951A /* Project object */;
 }
