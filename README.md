@@ -1,3 +1,7 @@
+# Intructions to launch
+1. Check if swift package has https://github.com/evgenyneu/keychain-swift/
+2. Check if accountTransactions.json and listOfAccounts.json are in the root folder ./TestBankApp
+
 # [__**Version Française**__](README_FR.md)
 
 ## Application Challenge
